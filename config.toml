@@ -107,6 +107,12 @@ icon = "fa fa-linkedin"
 weight = 2
 url = "https://www.linkedin.com/in/kamil-szyc/"
 
+[[params.social]]
+name = "Email"
+icon = "fa fa-envelope"
+weight = 3
+url = "mailto:kamil@szyc.dev"
+
 [[menu.main]]
 name = "Home"
 weight = 1
