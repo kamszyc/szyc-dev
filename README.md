@@ -1,3 +1,5 @@
+![Deploy website to FTP on push](https://github.com/kamszyc/szyc-dev/actions/workflows/main.yml/badge.svg)
+
 Source code of personal website \
 https://szyc.dev
 
