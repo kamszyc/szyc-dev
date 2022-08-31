@@ -97,19 +97,19 @@ customJS = []
 
 [[params.social]]
 name = "Github"
-icon = "fa fa-github"
+icon = "fa fa-2x fa-github"
 weight = 1
 url = "https://github.com/kamszyc/"
 
 [[params.social]]
 name = "LinkedIn"
-icon = "fa fa-linkedin"
+icon = "fa fa-2x fa-linkedin"
 weight = 2
 url = "https://www.linkedin.com/in/kamil-szyc/"
 
 [[params.social]]
 name = "Email"
-icon = "fa fa-envelope"
+icon = "fa fa-2x fa-envelope"
 weight = 3
 url = "mailto:kamil@szyc.dev"
 
