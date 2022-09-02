@@ -6,4 +6,6 @@ tags = [
 ]
 +++
 
-Welcome to my blog!
+```csharp
+Console.WriteLine("Welcome to my blog!");
+```
