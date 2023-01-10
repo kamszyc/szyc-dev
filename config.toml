@@ -48,6 +48,7 @@ customJS = []
 
 [taxonomies]
 
+
 [[params.social]]
 name = "Github"
 icon = "fa fa-2x fa-github"
