@@ -67,7 +67,7 @@ icon = "fa fa-2x fa-envelope"
 weight = 3
 url = "mailto:kamil@szyc.dev"
 
-[[menu.main]]
-name = "Blog"
-weight = 1
-url = "posts/"
+#[[menu.main]]
+#name = "Blog"
+#weight = 1
+#url = "posts/"
