@@ -3,12 +3,14 @@ title = "Kamil Szyc"
 theme = "hugo-coder"
 #languageCode = "en"
 #defaultContentLanguage = "en"
-paginate = 20
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 
 googleAnalytics = 'G-J16Q3KZY5N'
+
+[pagination]
+pagerSize = "20"
 
 [params]
 author = "Kamil Szyc"
