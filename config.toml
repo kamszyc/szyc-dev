@@ -17,8 +17,3 @@ googleAnalytics = 'G-J16Q3KZY5N'
     { linkedin = "https://www.linkedin.com/in/kamil-szyc/" },
     { github = "https://github.com/kamszyc/" },
   ]
-
-[module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.86.1"
