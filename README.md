@@ -2,6 +2,6 @@
 
 ![Deploy website to FTP on push](https://github.com/kamszyc/szyc-dev/actions/workflows/main.yml/badge.svg)
 
-Built using Hugo with Coder theme \
+Built using Hugo with Lynx theme \
 https://gohugo.io/ \
-https://themes.gohugo.io/hugo-coder/
+https://github.com/jpanther/lynx/
