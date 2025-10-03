@@ -1,75 +1,24 @@
 baseURL = "https://szyc.dev"
+languageCode = "en"
+defaultContentLanguage = "en"
+
 title = "Kamil Szyc"
-theme = "hugo-coder"
-#languageCode = "en"
-#defaultContentLanguage = "en"
-pygmentsCodeFences = true
-pygmentsCodeFencesGuessSyntax = true
+
 enableEmoji = true
+disableKinds = ["taxonomy", "term"]
 
 googleAnalytics = 'G-J16Q3KZY5N'
 
-[pagination]
-pagerSize = "20"
+[params.author]
+  name = "Kamil Szyc"
+  headline = ".NET Developer based in Warsaw"
+  image = "images/avatar.jpg"
+  links = [
+    { linkedin = "https://www.linkedin.com/in/kamil-szyc/" },
+    { github = "https://github.com/kamszyc/" },
+  ]
 
-[params]
-author = "Kamil Szyc"
-description = "Kamil Szyc's personal website - .NET Developer based in Warsaw"
-keywords = "blog,developer,personal,dotnet"
-info = ".NET Developer, Warsaw"
-avatarURL = "images/avatar.jpg"
-#gravatar = "john.doe@example.com"
-#footerContent = "Enter a text here."
-dateFormat = "January 2, 2006"
-hideFooter = false
-hideCredits = false
-hideCopyright = true
-since = 2021
-# Git Commit in Footer, uncomment the line below to enable it
-commit = "https://github.com/luizdepra/hugo-coder/tree/"
-# Right To Left, shift content direction for languagues such as Arabic
-rtl = false
-# Specify light/dark colorscheme
-# Supported values:
-# "auto" (use preference set by browser)
-# "dark" (dark background, light foreground)
-# "light" (light background, dark foreground) (default)
-colorScheme = "auto"
-# Hide the toggle button, along with the associated vertical divider
-hideColorSchemeToggle = false
-# Series see also post count
-maxSeeAlsoItems = 5
-# Enable Twemoji
-enableTwemoji = false
-# Custom CSS
-customCSS = []
-# Custom SCSS
-customSCSS = []
-# Custom JS
-customJS = []
-
-[taxonomies]
-
-[[params.social]]
-name = "Github"
-icon = "fa fa-2x fa-github"
-weight = 1
-url = "https://github.com/kamszyc/"
-
-[[params.social]]
-name = "LinkedIn"
-icon = "fa fa-2x fa-linkedin"
-weight = 2
-url = "https://www.linkedin.com/in/kamil-szyc/"
-
-[[params.social]]
-name = "Email"
-icon = "fa fa-2x fa-envelope"
-weight = 3
-url = "mailto:kamil@szyc.dev"
-
-
-#[[menu.main]]
-#name = "Blog"
-#weight = 1
-#url = "posts/"
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
