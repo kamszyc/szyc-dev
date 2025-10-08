@@ -11,7 +11,7 @@ googleAnalytics = 'G-J16Q3KZY5N'
 
 [params.author]
   name = "Kamil Szyc"
-  headline = ".NET Developer - Warsaw, Poland"
+  headline = ".NET Developer"
   image = "photo.jpg"
   links = [
     { linkedin = "https://www.linkedin.com/in/kamil-szyc/" },
