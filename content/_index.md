@@ -1,1 +1,1 @@
-You can find me on profiles below:
+You can find me on the following profiles:
